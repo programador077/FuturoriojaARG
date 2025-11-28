@@ -23,4 +23,16 @@ El proyecto está organizado de la siguiente manera para mantener un código lim
 
 ## Cómo ejecutar
 
-Simplemente abre el archivo `index.html` en tu navegador web favorito. No se requiere un servidor de desarrollo complejo, aunque se recomienda usar una extensión como "Live Server" en VS Code para una mejor experiencia de desarrollo.
+### Opción 1: Directa
+Simplemente abre el archivo `index.html` en tu navegador web favorito.
+
+### Opción 2: Servidor Local (Recomendado)
+Para una mejor experiencia (y evitar problemas de CORS con algunos recursos), se recomienda usar un servidor local.
+
+Si tienes Python instalado:
+```bash
+python3 -m http.server 8080
+```
+Luego abre [http://localhost:8080](http://localhost:8080) en tu navegador.
+
+También puedes usar la extensión "Live Server" en VS Code.
